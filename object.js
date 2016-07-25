@@ -28,7 +28,7 @@ class Shape {
 }
 
 
-var shape = new Shape('三角形', 2);  //实例
+const shape = new Shape('三角形', 2);  //实例
 console.log(shape.getName());
 
 console.log(shape.getLength());
