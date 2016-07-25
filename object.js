@@ -30,14 +30,19 @@ class Circle extends Shape {
     super(name, length);
   }
 
+  static print(){
+    console.log('hehehe');
+  }
+
 }
 
 
-const shape = new Shape('三角形', 2);  //实例
+const shape = new Shape('三角形', 2);
 console.log(shape.getName());
 console.log(shape.getLength());
 
 const circle = new Circle('圆形', 4);
 console.log(circle.getName());
 console.log(circle.getLength());
+Circle.print();
 
