@@ -26,10 +26,21 @@ class Shape {
 
 
 }
+class Circle extends Shape{
+  
+  constructor(name,length) {
+    super(name,length);
+  }
+  
+}
 
 
 const shape = new Shape('三角形', 2);  //实例
 console.log(shape.getName());
 
 console.log(shape.getLength());
+
+const circle = new Circle('圆形',4);
+console.log(circle.getName());
+console.log(circle.getLength());
 
